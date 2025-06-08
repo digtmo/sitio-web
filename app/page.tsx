@@ -14,13 +14,9 @@ export default function GeoExLanding() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="h-12 relative">
-              <Image
-                src="/images/logo.png"
-                alt="GeoEx - Ingeniería Geotécnica"
-                width={180}
-                height={48}
-                className="object-contain"
-              />
+              <div className="h-12 w-32 bg-gradient-to-r from-red-600 to-red-700 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">GeoEx</span>
+              </div>
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link href="#inicio" className="text-slate-800 hover:text-red-600 transition-colors">
@@ -71,7 +67,7 @@ export default function GeoExLanding() {
             <div className="space-y-6">
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Panorámica de obra civil con el equipo GeoEx en terreno"
                   width={600}
                   height={400}
@@ -80,7 +76,7 @@ export default function GeoExLanding() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=250&width=400"
+                  src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400"
                   alt="Close-up de sondaje SPT en ejecución"
                   width={400}
                   height={250}
@@ -135,7 +131,7 @@ export default function GeoExLanding() {
 
             <div className="space-y-6">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=500"
                 alt="Profesionales trabajando en laboratorio y terreno"
                 width={500}
                 height={300}
@@ -196,7 +192,7 @@ export default function GeoExLanding() {
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
                   <Image
-                    src="/placeholder.svg?height=120&width=120"
+                    src="https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=120"
                     alt="Campañas de Mecánica de Suelos"
                     width={120}
                     height={120}
@@ -221,7 +217,7 @@ export default function GeoExLanding() {
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
                   <Image
-                    src="/placeholder.svg?height=120&width=120"
+                    src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=120"
                     alt="Prospección Geofísica"
                     width={120}
                     height={120}
@@ -246,7 +242,7 @@ export default function GeoExLanding() {
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
                   <Image
-                    src="/placeholder.svg?height=120&width=120"
+                    src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=120"
                     alt="Análisis de Estabilidad Geotécnica"
                     width={120}
                     height={120}
@@ -269,7 +265,7 @@ export default function GeoExLanding() {
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
                   <Image
-                    src="/placeholder.svg?height=120&width=120"
+                    src="https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=120"
                     alt="Diseño Geotécnico de Ingeniería"
                     width={120}
                     height={120}
@@ -294,7 +290,7 @@ export default function GeoExLanding() {
             <CardContent className="p-8">
               <div className="grid md:grid-cols-3 gap-6 items-center">
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=300"
                   alt="Revestimientos con Geosintéticos"
                   width={300}
                   height={200}
@@ -340,7 +336,7 @@ export default function GeoExLanding() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-800">Dirección</h3>
-                    <p className="text-slate-600">______________________</p>
+                    <p className="text-slate-600">Santiago, Chile</p>
                   </div>
                 </div>
 
@@ -350,7 +346,7 @@ export default function GeoExLanding() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-800">Teléfono</h3>
-                    <p className="text-slate-600">+56 9 ____ ____</p>
+                    <p className="text-slate-600">+56 9 1234 5678</p>
                   </div>
                 </div>
 
@@ -383,7 +379,7 @@ export default function GeoExLanding() {
 
               <div className="bg-slate-100 p-4 rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=400"
                   alt="Plano de ubicación o mapa"
                   width={400}
                   height={200}
@@ -441,14 +437,8 @@ export default function GeoExLanding() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="h-12 relative mb-4">
-                <Image
-                  src="/images/logo.png"
-                  alt="GeoEx - Ingeniería Geotécnica"
-                  width={160}
-                  height={42}
-                  className="object-contain"
-                />
+              <div className="h-12 w-32 bg-gradient-to-r from-red-600 to-red-700 rounded-lg flex items-center justify-center mb-4">
+                <span className="text-white font-bold text-xl">GeoEx</span>
               </div>
               <p className="text-slate-300">
                 Ingeniería geotécnica de alto nivel técnico para obras seguras y eficientes.
@@ -470,8 +460,8 @@ export default function GeoExLanding() {
               <h4 className="font-semibold mb-4">Contacto</h4>
               <div className="space-y-2 text-slate-300">
                 <p>contacto@geoex.cl</p>
-                <p>+56 9 ____ ____</p>
-                <p>Chile</p>
+                <p>+56 9 1234 5678</p>
+                <p>Santiago, Chile</p>
               </div>
             </div>
           </div>
